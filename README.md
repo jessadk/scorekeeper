@@ -1,6 +1,6 @@
 # Score Tracking App
 
-![](./screenshot.png) 
+![](./sceenshot.png) 
 
 ## Table of contents
 
