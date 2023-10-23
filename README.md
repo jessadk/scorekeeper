@@ -44,7 +44,7 @@ A straightforward web application designed for keeping track of scores. Points c
 - Jesse Adkins, Junior Frontend Developer
 - Email: jesse@jesseadkins.com
 - [Portfolio](https://www.jesseadkins.com)
-- [LinkedIn](www.linkedin.com/in/adkinsjesse)
+- [LinkedIn](https://www.linkedin.com/in/adkinsjesse)
 - [Frontend Mentor](https://www.frontendmentor.io/profile/jessadk)
 
 
