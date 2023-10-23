@@ -20,7 +20,7 @@ A straightforward web application designed for keeping track of scores. Points c
 
 ### Links
 
-- [Live Demo](https://your-live-site-url.com)
+- [Live Demo](https://scorekeeper-nine.vercel.app/)
 
 ## My Process
 
