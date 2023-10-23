@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Verdana", sans-serif;
+    color: #eee;
+  }
+  
+  .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 575px;
+    padding: 50px 75px;
+    background-color: #1B244A;
+    gap: 35px 55px;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 2px solid #9AABD8;
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .score {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #080001;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+    line-height: 150%;
+  }
+  
+  h3 {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .points {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+  }
+  
+  button {
+    z-index: 9999;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px;
+    background: inherit;
+    font-size: 18px;
+    color: #9AABD8;
+    letter-spacing: 1.75px;
+  }
+  
+  .container div:nth-child(3){
+    z-index: 9999;
+    grid-column: span 2;
+    text-align: center;
+  }
+  
+  #new-game-btn {
+    border: none;
+    background: #eee;
+    color: #1B244A;
+  }
+  
